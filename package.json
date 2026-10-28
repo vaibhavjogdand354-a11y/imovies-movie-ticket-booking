@@ -1,0 +1,26 @@
+{
+  "name": "imovies-movie-ticket-booking",
+  "version": "1.0.0",
+  "description": "IMovies – Movie Ticket Booking Made Simple (MERN + Socket.IO + Tailwind CSS)",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "seed": "cd backend && npm run seed",
+    "test:backend": "cd backend && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "mern",
+    "movie-ticket-booking",
+    "socket.io",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "SkillWallet Architect",
+  "license": "ISC"
+}
